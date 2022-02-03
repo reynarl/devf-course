@@ -1,0 +1,40 @@
+body{
+   width: 100%;
+   max-width: 900px;
+   margin: auto;
+   font-family: 'Poppins', sans-serif;
+}
+
+h2{
+   font-size: 16px;
+}
+h1{
+   font-size: 25px;
+   font-weight: normal;
+}
+
+header{
+   text-align: center;
+   color: white;
+   background-color: salmon;
+   padding-top: 20px;
+}
+
+.image-profile{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+
+.info hr{
+   border-color: salmon;
+}
+
+.title{
+   font-weight: bold;
+   color: rgb(71, 71, 71);
+}
+
+footer{
+   text-align: center;
+}
