@@ -4,42 +4,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/logo.png">
   <link rel="stylesheet" href="css/styles.css">
   <title>E-learning</title>
 </head>
 <body>
-  <header>
+  <!-- CABECERA -->
+  <header id="home">
     <nav>
-      <div><img src="img/logo.png" alt="logo"></div>
-      <div>
-        <ul>
-          <li><a>Home</a></li>
-          <li><a>Cursos</a></li>
-          <li><a>Contacto</a></li>
-        </ul>
-      </div>
+      <img src="img/logo.png" alt="logo">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#lista-cursos">Cursos</a></li>
+        <li><a href="#footer">Contacto</a></li>
+      </ul>
     </nav>
-    <img src="img/elearning.jpg" alt="">
+    <div class="contenedor-img"></div>
   </header>
-  <section class="lista-programas">
+  <!-- FIN CABECERA -->
+
+  <!-- CURSOS -->
+  <section id="lista-cursos">
     <h1>La mejor escuela online para aprender lo que quieras</h1>
-    <div class="programacion">
-      <h2>Programación Web</h2>
-      <p>Aprender a hacer páginas web con HTML, CSS y JS con los mejores maestros de latinoamérica</p>
-      <img src="" alt="">
-    </div>
-    <div class="marketing">
-      <img src="" alt="">
-      <h2>Marketing Digital</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur, quidem harum eveniet ipsum mollitia libero culpa ullam. Asperiores quis numquam odio voluptas voluptatibus rerum quibusdam consequatur ullam deleniti minima!</p>
-    </div>
+    <a href="#program-web">
+      <div class="programacion">
+        <h2>Programación Web</h2>
+        <p>Aprender a hacer páginas web con HTML, CSS y JS con los mejores maestros de latinoamérica</p>
+        <img src="" alt="">
+      </div>
+    </a>
+    <a href="#market-digital">
+      <div class="marketing">
+        <img src="" alt="">
+        <h2>Marketing Digital</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur, quidem harum eveniet ipsum mollitia libero culpa ullam. Asperiores quis numquam odio voluptas voluptatibus rerum quibusdam consequatur ullam deleniti minima!</p>
+      </div>
+    </a>
+    <a href="#ilust-digital"></a>
     <div class="ilustracion">
       <h2>Ilustracion Digital</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur facilis eveniet! Sequi temporibus nemo facere natus ipsa mollitia aspernatur ipsum distinctio pariatur harum, quae laudantium dicta repudiandae cum nulla.</p>
       <img src="" alt="">
     </div>
   </section>
-  <section id="programacion-web">
+  <!-- FIN CURSOS -->
+
+  <!-- SECCION PROGRAMACION-WEB -->
+  <section id="program-web">
+    <h2>Programación Web</h2>
     <img src="" alt="">
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit perferendis ullam minus cum nulla? Non, eos. Placeat cum nemo vero doloribus, totam autem quo id ad adipisci, cumque, dolor aliquid.
@@ -47,8 +59,10 @@
       Veritatis alias nam repellat animi error ea quis hic iusto ipsum. Beatae inventore reprehenderit necessitatibus quam sint error voluptate exercitationem ex aperiam esse! Explicabo aliquam autem dignissimos ipsa cumque magni.
       Incidunt laborum et magni voluptatum mollitia atque voluptas delectus sunt tempore exercitationem, deleniti cumque eaque quidem earum fugit culpa magnam voluptatibus, perspiciatis velit nisi necessitatibus ipsum doloremque pariatur? Explicabo, consequuntur.
     </p>
-    <button>INSCRÍBETE YA</button>
+    <button type="button">INSCRÍBETE YA</button>
   </section>
-  
+  <!-- FIN SECCION PROGRAMACION-WEB -->
+
+
 </body>
 </html>
