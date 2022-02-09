@@ -31,7 +31,7 @@ header .name{
 
 .contacto hr{
    width: 850px;
-   border-color: rgb(255, 201, 201);
+   border-color: white
 }
 
 section{
@@ -54,6 +54,31 @@ section{
    color: rgb(71, 71, 71);
 }
 
+.general-info{
+   position: relative;
+}
+.skills{
+   /* background-color: rgb(255, 120, 172); */
+   position: absolute;
+   left: 620px;
+   top: 10px;
+}
+
+.social-net{
+   position: fixed;
+   bottom: 20px;
+   right: 100px;
+}
+
+.social-net img{
+   width: 50px;
+}
+
+.social-net ul{
+   list-style: none;
+}
+
 footer{
+   margin-top: 30px;
    text-align: center;
 }
