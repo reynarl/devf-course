@@ -1,0 +1,168 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* CABECERA */
+
+nav{
+  width: 100%;
+  background-color: #8A6EA4;
+  position: fixed;
+}
+
+nav a{
+  color: white;
+}
+
+nav img{
+  width: 65px;
+  margin-left: 40px;
+}
+
+nav ul{
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+nav li{
+  padding-left: 70px;
+  display: inline;
+}
+
+.contenedor-img{
+  height: 380px;
+  background-image: url("../img/elearning.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* FIN */
+
+/* CURSOS */
+.cursos{
+  text-align: center;
+  width: 1050px;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  color: #580158;
+  font-size: 39px;
+  margin: 35px 0;
+}
+
+.cursos a{
+  text-decoration: none;
+  color: #580158;
+}
+
+.programacion, .marketing, .ilustracion{
+  height: 170px;
+  background-color: #EE82EE;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.cursos img{
+  width: 420px;
+  height: 160px;
+  padding: 10px 10px 0 0;
+  float: right;
+}
+
+.cursos h2{
+  padding: 15px 0;
+}
+
+.contenedor-texto{
+  margin: 0 520px 0 30px;
+  font-size: 15px;
+}
+
+.programacion h2{
+  padding-top: 30px;
+}
+
+.marketing img{
+  float: left;
+  padding-left: 10px;
+}
+
+.contenedor-texto-market{
+  margin: 0 30px 0 520px;
+  font-size: 15px;
+}
+
+/* SECCIONES INDIVIDUALES */
+
+.seccion-individual{
+  margin: auto;
+  padding-top: 80px;
+  width: 1050px;
+  text-align: center;
+}
+
+.seccion-individual img{
+  width: 300px;
+  padding: 30px 0;
+}
+
+.seccion-individual p{
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.seccion-individual button{
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #8A6EA4;
+  border: 3px white solid;
+  color: white;
+  transition: all .5s
+}
+
+.seccion-individual button:hover{
+  background-color: white;
+  border: 3px #8A6EA4 solid;
+  color: #8A6EA4;
+}
+
+.seccion-individual button:active{
+  background-color: #350A5D;
+  border: 3px #350A5D solid;
+  color: white;
+}
+
+footer{
+  background-color: #aa8cc7;
+  padding: 10px 0;
+  color: black;
+  margin-top: 10px;
+}
+
+footer a{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+footer img{
+  width: 50px;
+  float: right;
+}
+
+
+
