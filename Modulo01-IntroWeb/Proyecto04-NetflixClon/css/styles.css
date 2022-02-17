@@ -1,0 +1,239 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body{
+  background-color: black;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+}
+
+header{
+  width: 100%;
+  background-image: url("../img/background_web.webp");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px -10px 25px black inset;
+}
+
+/* NAV */
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+}
+
+.left-side{
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 25px;
+}
+
+nav::-webkit-scrollbar{
+  background-color: black;
+}
+
+nav select{
+  width: 60px;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+nav select option{
+  background-color: black;
+}
+
+.right-side{
+  display: flex;
+  align-items: center;
+}
+
+.right-side img{
+  width: 9px;
+  margin-right: 14px;
+  
+}
+.right-side img:nth-child(2){
+  width: 30px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+/* .video-container{
+  width: 100%;
+  position: relative;
+}
+video{
+  width: 100%;
+}
+
+.video-container img{
+  width: 200px;
+  position: absolute;
+  bottom: 25px;
+}
+.video-container p{
+  position: absolute;
+  bottom: 25px;
+  font-size: 20px;
+  color: white;
+} */
+
+/* END NAV */
+
+.text-container{
+  margin-left: 15px;
+}
+
+.text-container img{
+  width: 40%;
+  margin-top: 7%;
+}
+
+.text-container p{
+  width: 35%;
+  font-size: 4px;
+  line-height: 6px;
+}
+
+.text-container button{
+  margin: 5px 0;
+  margin-bottom: 15%;
+  padding: 2% 0;
+  font-size: 60%;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.text-container button i{
+  padding-right: 5px;
+}
+
+.text-container button:nth-child(3){
+  width: 25%;
+  color: black;
+}
+
+.text-container button:nth-child(4){
+  width: 33%;
+  background-color: rgba(107, 97, 97, 0.7);
+}
+
+/* END HEADER */
+
+
+section{
+  padding-left: 15px;
+  width: 100%;
+}
+
+section div{
+  padding-bottom: 10px;
+}
+
+section h2{
+  font-size: 13px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+section img{
+  width: 47.5%;
+  max-width: 243px;
+  height: 20%;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+progress{
+  width: 30%;
+  height: 3px;
+  background-color: gray;
+  border-radius: 50px;
+}
+
+section progress:nth-child(4){
+  margin-left: 8%;
+}
+
+section progress:nth-child(5){
+  margin-left: 17%;
+}
+
+progress::-webkit-progress-bar {
+  background-color: rgb(78, 78, 78);
+  border-radius: 50px;
+  
+}
+progress::-webkit-progress-value {
+  background-color: rgb(221, 0, 0);
+  border-radius: 50px;
+}
+
+/* FOOTER */
+
+footer{
+  padding: 0 15px;
+  font-weight: normal;
+  color: gray;
+}
+
+.social-network{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 23px;
+  margin: 80px 0 15px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.links ul li{
+  list-style: none;
+  padding-bottom: 15px;
+}
+.links ul a{
+  text-decoration: none;
+  color: gray;
+}
+
+footer button{
+  color: gray;
+  background-color: transparent;
+  border: gray solid 1px;
+  padding: 8px 5px;
+  margin: 20px 0;
+}
+
+footer p{
+  font-size: 11px;
+  font-weight: 500;
+}
+
+footer p:nth-child(5){
+  margin-bottom: 15px;
+}
