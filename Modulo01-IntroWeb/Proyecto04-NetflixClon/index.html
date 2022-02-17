@@ -14,13 +14,11 @@
 </head>
 <body>
   <header>
-    <div class="shadow">
-
-    </div>
     <nav>
       <div class="left-side">
-        <img class="logo" src="img/icon/netflix-logo.png" alt="logo_netflix">
+        <img class="logo" src="img/icon/netflix_logo.svg" alt="logo_netflix">
         <select name="menu">
+          <option value="">Explorar</option>
           <option value="">Inicio</option>
           <option value="">Series</option>
           <option value="">Películas</option>
@@ -37,7 +35,7 @@
         <li><a href="#">Mi lista</a></li>
       </ul> -->
       <div class="right-side">
-        <!-- <img src="img/icon/search.svg" alt="search-icon"> -->
+        <img class="tablet" src="img/icon/search.svg" alt="search-icon">
         <img src="img/icon/bell.svg" alt="bell-icon">
         <img src="img/profile.jpg" alt="foto-perfil">
       </div>
@@ -60,45 +58,62 @@
     <div>
       <h2>Continuar viendo contenido de REYNA</h2>
       <img src="img/img-movies/better-call-saul.jpg" alt="">
-      <img src="img/img-movies/one-piece.jpg" alt="">
-      <progress max="100" value="50"></progress>
-      <progress max="100" value="20"></progress>
+      <img src="img/img-movies/kimetsu.jpg" alt="">
+      <img class="tablet" src="img/img-movies/count.jpg" alt="">
+      <div class="progress">
+        <progress max="100" value="50"></progress>
+        <progress max="100" value="20"></progress>
+        <progress max="100" value="5" class="tablet"></progress>
+      </div>
     </div>
-
+    
     <div>
       <h2>Mi lista</h2>
-      <img src="img/img-movies/aggretsuko.jpg" alt="">
-      <img src="img/img-movies/mascotas.jpg" alt="">
+      <img src="img/img-movies/borito.jpg" alt="">
+      <img src="img/img-movies/one-piece.jpg" alt="">
+      <img class="tablet" src="img/img-movies/aterrizaje.jpg">
     </div>
 
     <div>
       <h2>Solo en Netflix</h2>
       <img src="img/img-movies/muertos.jpg" alt="">
       <img src="img/img-movies/tinder.jpg" alt="">
+      <img class="tablet" src="img/img-movies/serie3.jpg">
     </div>
 
     <div>
       <h2>Series internacionales</h2>
       <img src="img/img-movies/aterrizaje.jpg" alt="">
       <img src="img/img-movies/peli1jp.jpg" alt="">
+      <img class="tablet" src="img/img-movies/pcoreapg.jpg">
     </div>
     
     <div>
       <h2>Tendencias</h2>
       <img src="img/img-movies/ventana.jpg" alt="">
       <img src="img/img-movies/ana.jpg" alt="">
+      <img class="tablet" src="img/img-movies/jugarp.jpg">
     </div>
 
     <div>
       <h2>Animes o basados en animes</h2>
       <img src="img/img-movies/borito.jpg" alt="">
       <img src="img/img-movies/kimetsu.jpg" alt="">
+      <img class="tablet" src="img/img-movies/pelicula2jp.jpg">
     </div>
 
     <div>
       <h2>Series aclamadas por la crítica</h2>
       <img src="img/img-movies/serie1.jpg" alt="">
       <img src="img/img-movies/serie2.jpg" alt="">
+      <img class="tablet" src="img/img-movies/super.jpg">
+    </div>
+
+    <div>
+      <h2>Peliculas taquilleras</h2>
+      <img src="img/img-movies/mib.jpg" alt="">
+      <img src="img/img-movies/transfo.jpg" alt="">
+      <img class="tablet" src="img/img-movies/mujerp.jpg">
     </div>
   </section>
 
@@ -133,8 +148,10 @@
       </div>
     </div>
     <button type="button">Código de servicio</button>
-    <p>&copy; 1997-2022 Netflix, Inc.</p>
-    <p>{f0c674d8-84d7-4934-8678-ec2e2406632a}</p>
+    <div class="code">
+      <p>&copy; 1997-2022 Netflix, Inc.</p>
+      <p>{f0c674d8-84d7-4934-8678-ec2e2406632a}</p>
+    </div>
   </footer>
 </body>
 </html>
