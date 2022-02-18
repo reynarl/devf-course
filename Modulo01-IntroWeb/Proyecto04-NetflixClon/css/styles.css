@@ -20,7 +20,7 @@ header{
   box-shadow: 0px -10px 25px black inset;
 }
 
-/* NAV */
+/* NAV -----------*/
 nav{
   width: 100%;
   display: flex;
@@ -71,7 +71,7 @@ nav select option{
   padding: 5px 0;
 }
 
-.tablet{
+.tablet, .pc-menu, .pc, .pc-max{
   display: none;
 }
 
@@ -95,7 +95,7 @@ video{
   color: white;
 } */
 
-/* END NAV */
+/* END NAV ---------------------*/
 
 .text-container{
   margin-left: 15px;
@@ -137,7 +137,7 @@ video{
   background-color: rgba(107, 97, 97, 0.7);
 }
 
-/* MEDIA FOR HEADER --------------------*/
+/*HEADER-STYLES FOR TABLET --------------*/
 @media screen and (min-width:480px) {
   nav{
     height: 40px;
@@ -208,11 +208,103 @@ video{
   }
 }
 
-/* END HEADER */
+/*HEADER-STYLES FOR PC -----------------*/
+@media screen and (min-width:769px){
+  select{
+    display: none;
+  }
+
+  nav{
+    height: 65px;
+  }
+  
+  .logo {
+    width: 90px;
+  }
+
+  .pc-menu{
+    display: inline-block;
+    display: flex;
+    font-size: 12px;
+  }
+
+  .pc-menu li{
+    list-style: none;
+  }
+
+  .pc-menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+  }
+
+  .pc-menu a:hover{
+    color: rgb(192, 192, 192);
+  }
+  
+  .text-container p{
+    width: 45%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .text-container button:hover{
+    background-color: rgb(128, 128, 128, 0.5);
+    cursor: pointer;
+  }
+
+  .text-container button:nth-child(3):hover{
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .text-container button:nth-child(3){
+    width: 15%;
+  }
+  .text-container button:nth-child(4){
+    width: 20%;
+  }
+}
+@media screen and (min-width:1024px){
+  
+  .left-side{
+    padding-left: 25px;
+  }
+
+  .pc-menu{
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+  .text-container{
+    padding-left: 25px;
+  }
+
+  .text-container p{
+    width: 40%;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .text-container button{
+    padding: 1% 0;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+
+  .text-container button:nth-child(3){
+    width: 13%;
+    margin-right: 8px;
+  }
+  .text-container button:nth-child(4){
+    width: 16%;
+  }
+}
+/* END HEADER -------------------------*/
+
 
 
 /* SECTION */
-
 section{
   padding-left: 15px;
   width: 100%;
@@ -267,9 +359,9 @@ progress::-webkit-progress-value {
   border-radius: 50px;
 }
 
-/* END OF SECTION */
+/* END OF SECTION --------------------------------*/
 
-/* MEDIA FOR SECTION AND FOOTER -----------------*/
+/* SECTION-FOOTER STYLES FOR TABLET -----------------*/
 @media screen and (min-width:480px){
   section{
     padding-left: 30px;
@@ -317,8 +409,79 @@ progress::-webkit-progress-value {
   }
 
 }
+/* SECTION-FOOTER STYLES FOR PC -----------------*/
+@media screen and (min-width:769px){
+  .pc{
+    display: inline-block;
+  }
 
-/* FOOTER */
+  section h2{
+    font-size: 16px;
+    padding-bottom: 9px;
+  }
+  section div img{
+  width: 24%;
+  max-width: 240px;
+  }
+
+  footer{
+    margin-left: 45px;
+  }
+  .links{
+    width: 50%;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .links ul li{
+    list-style: none;
+    padding-bottom: 15px;
+  }
+
+  .code{
+    padding-bottom: 20px;
+    display: flex;
+  }
+
+
+}
+
+@media screen and (min-width:1024px){
+  section{
+    margin-left: 25px;
+  }
+  section h2{
+    font-size: 19px;
+  }
+  section div{
+    margin-bottom: 20px;
+  }
+
+  section div img{
+  width: 19%;
+  max-width: 255px;
+  }
+
+  .progress{
+    width: 96%;
+  }
+
+  .progress progress{
+    width: 15%;
+    /* margin-left: 1px; */
+  }
+
+  .pc-max{
+    display: inline-block;
+  }
+}
+
+footer{
+
+}
+
+/* FOOTER ---------------------------------------*/
 
 footer{
   padding: 0 15px;
