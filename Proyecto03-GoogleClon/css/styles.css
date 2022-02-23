@@ -65,6 +65,11 @@ section input{
   background-size: 26px;
   background-position: 97% 40%;
   background-repeat: no-repeat;
+  outline: none;
+}
+
+section input:hover{
+  box-shadow: 0px 0px 4px rgb(190, 190, 190);
 }
 
 button{
