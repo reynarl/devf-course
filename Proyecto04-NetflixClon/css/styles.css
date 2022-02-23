@@ -62,7 +62,7 @@ nav select option{
 .right-side img{
   width: 9px;
   margin-right: 14px;
-  
+  cursor: pointer;
 }
 .right-side img:nth-child(3){
   width: 30px;
@@ -325,6 +325,7 @@ section div img{
   max-width: 243px;
   height: 20%;
   max-height: 150px;
+  cursor: pointer;
   /* height: 90px;
   object-fit: cover; */
 }
@@ -477,10 +478,6 @@ progress::-webkit-progress-value {
   }
 }
 
-footer{
-
-}
-
 /* FOOTER ---------------------------------------*/
 
 footer{
@@ -496,6 +493,14 @@ footer{
   color: white;
   font-size: 23px;
   margin: 70px 0 15px;
+}
+
+.social-network a:hover{
+  /* color: rgb(224, 1, 1); */
+  color: white;
+}
+.social-network a:visited{
+  color: white;
 }
 
 .links{
